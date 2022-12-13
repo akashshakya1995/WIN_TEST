@@ -1,0 +1,406 @@
+{
+    "client": "Thunder Client",
+    "collectionName": "Win_Test",
+    "dateExported": "2022-12-13T06:18:45.448Z",
+    "version": "1.1",
+    "folders": [],
+    "requests": [
+        {
+            "_id": "eba754a2-632e-4803-b03c-58ac508d42a1",
+            "colId": "b6f960b6-a0a3-4ce2-b47a-8008d52b1b07",
+            "containerId": "",
+            "name": "updateOrder",
+            "url": "http://localhost:2022/admin/order/updatestatus/639808b224c0482857ec8a88",
+            "method": "PUT",
+            "sortNum": 10000,
+            "created": "2022-12-13T06:14:56.225Z",
+            "modified": "2022-12-13T06:14:56.225Z",
+            "headers": [
+                {
+                    "name": "token",
+                    "value": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJhZG1pbkVtYWlsIjoiYWthc2hAd2luLmNvbSIsImFkbWluSWQiOiI2Mzk3NTk5OGU5ZDgzYjA1NDdmZTg4YzMiLCJhZG1pbk5hbWUiOiJBa2FzaCBrdW1hciIsImlhdCI6MTY3MDkwMDc0OSwiZXhwIjoxNjcxNTA1NTQ5fQ.L6V8dqqOF8YQWg8ubk0zCkLjVS5pRxtj-YVmxsXM1Qo"
+                }
+            ],
+            "params": [],
+            "body": {
+                "type": "json",
+                "raw": "{\n  \"statusName\":\"packed\",\n  \"statusBool\":\"true\"\n}",
+                "form": []
+            },
+            "tests": []
+        },
+        {
+            "_id": "3e4e70ee-9736-4e05-9dee-44d91d24e44d",
+            "colId": "b6f960b6-a0a3-4ce2-b47a-8008d52b1b07",
+            "containerId": "",
+            "name": "OrderPlace",
+            "url": "http://localhost:2022/admin/user/orderPlace",
+            "method": "POST",
+            "sortNum": 20000,
+            "created": "2022-12-13T06:15:11.760Z",
+            "modified": "2022-12-13T06:15:11.760Z",
+            "headers": [
+                {
+                    "name": "token",
+                    "value": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VyRW1haWxJZCI6Inh5ekBnbWFpbC5jb20iLCJ1c2VySWQiOiI2Mzk3ZjhkZTBlNDI0M2VlMzllZDJmNjMiLCJpYXQiOjE2NzA5MDYxMzUsImV4cCI6MTY3MTUxMDkzNX0.-FLVH8-UeuDNJDqY9o0RjMD-61YEFkx2HkvnfV_MQJ4"
+                }
+            ],
+            "params": [],
+            "body": {
+                "type": "json",
+                "raw": "{\n  \"shipingAddressId\":\"6397fd75c62357d5f18ac5c8\",\n  \"paymentMethod\":\"Case\",\n  \"products\":[\n     {\n      \"productId\":\"6397f06011dca20733af9b9d\",\n      \"quantity\":2,\n      \"price\":10\n      \n    },\n      {\n      \"productId\":\"6397f288a3de4f488ede0c11\",\n      \"quantity\":1,\n      \"price\":56\n      \n    }\n    ]\n}",
+                "form": []
+            },
+            "tests": []
+        },
+        {
+            "_id": "766a2a1f-fb62-49e8-b79b-1fa02cd55ca9",
+            "colId": "b6f960b6-a0a3-4ce2-b47a-8008d52b1b07",
+            "containerId": "",
+            "name": "userLogout",
+            "url": "http://localhost:2022/admin/user/logout",
+            "method": "PUT",
+            "sortNum": 30000,
+            "created": "2022-12-13T06:15:29.050Z",
+            "modified": "2022-12-13T06:15:29.050Z",
+            "headers": [
+                {
+                    "name": "token",
+                    "value": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VyRW1haWxJZCI6Inh5ekBnbWFpbC5jb20iLCJ1c2VySWQiOiI2Mzk3ZjhkZTBlNDI0M2VlMzllZDJmNjMiLCJpYXQiOjE2NzA5MDQ4NTAsImV4cCI6MTY3MTUwOTY1MH0.EaD28JKJQZhGSUPv5ajqvHdbL4_oVWLThjyc7dtiju0"
+                }
+            ],
+            "params": [],
+            "tests": []
+        },
+        {
+            "_id": "3022d0a4-17d0-4b39-b18c-7babce373f29",
+            "colId": "b6f960b6-a0a3-4ce2-b47a-8008d52b1b07",
+            "containerId": "",
+            "name": "addUserAddress",
+            "url": "http://localhost:2022/admin/user/addnewaddress",
+            "method": "PUT",
+            "sortNum": 40000,
+            "created": "2022-12-13T06:15:41.095Z",
+            "modified": "2022-12-13T06:15:41.095Z",
+            "headers": [
+                {
+                    "name": "token",
+                    "value": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VyRW1haWxJZCI6Inh5ekBnbWFpbC5jb20iLCJ1c2VySWQiOiI2Mzk3ZjhkZTBlNDI0M2VlMzllZDJmNjMiLCJpYXQiOjE2NzA5MDQ4NTAsImV4cCI6MTY3MTUwOTY1MH0.EaD28JKJQZhGSUPv5ajqvHdbL4_oVWLThjyc7dtiju0"
+                }
+            ],
+            "params": [],
+            "body": {
+                "type": "json",
+                "raw": "{\r\n      \"fullName\":\"test\" ,\r\n      \"country\": \"IN\",\r\n      \"state\": \"UP\",\r\n      \"pinCode\":20311,\r\n      \"city\": \"Noida\",\r\n      \"mobileNo\":\"9874563210\",\r\n      \"isDefault\":\"true\"\r\n    }",
+                "form": []
+            },
+            "tests": []
+        },
+        {
+            "_id": "2b9f1747-f548-4774-acba-4a20797f938b",
+            "colId": "b6f960b6-a0a3-4ce2-b47a-8008d52b1b07",
+            "containerId": "",
+            "name": "userSignIn",
+            "url": "http://localhost:2022/admin/user/signin",
+            "method": "POST",
+            "sortNum": 50000,
+            "created": "2022-12-13T06:15:55.080Z",
+            "modified": "2022-12-13T06:15:55.080Z",
+            "headers": [],
+            "params": [],
+            "body": {
+                "type": "json",
+                "raw": "{\n  \n  \"email\":\"xyz@gmail.com\",\n  \"password\":\"123456\"\n}",
+                "form": []
+            },
+            "tests": []
+        },
+        {
+            "_id": "021c1d97-c0c2-42e2-9d14-9adf9704c8bd",
+            "colId": "b6f960b6-a0a3-4ce2-b47a-8008d52b1b07",
+            "containerId": "",
+            "name": "userSignup",
+            "url": "http://localhost:2022/admin/user/signup",
+            "method": "POST",
+            "sortNum": 60000,
+            "created": "2022-12-13T06:16:09.434Z",
+            "modified": "2022-12-13T06:16:09.434Z",
+            "headers": [],
+            "params": [],
+            "body": {
+                "type": "json",
+                "raw": "   {\r\n      \"userEmailId\":\"xyz1@gmail.com\",\r\n      \"password\": \"123456\",\r\n      \"fullName\":\"Testing\",\r\n      \"gender\":\"Male\"\r\n    }",
+                "form": []
+            },
+            "tests": []
+        },
+        {
+            "_id": "7dd10c49-dadf-47eb-a13f-d774bff077e7",
+            "colId": "b6f960b6-a0a3-4ce2-b47a-8008d52b1b07",
+            "containerId": "",
+            "name": "getOrderDetails",
+            "url": "http://localhost:2022/admin/order/details/639808b224c0482857ec8a88",
+            "method": "GET",
+            "sortNum": 70000,
+            "created": "2022-12-13T06:16:16.309Z",
+            "modified": "2022-12-13T06:16:16.309Z",
+            "headers": [
+                {
+                    "name": "token",
+                    "value": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJhZG1pbkVtYWlsIjoiYWthc2hAd2luLmNvbSIsImFkbWluSWQiOiI2Mzk3NTk5OGU5ZDgzYjA1NDdmZTg4YzMiLCJhZG1pbk5hbWUiOiJBa2FzaCBrdW1hciIsImlhdCI6MTY3MDkwMDc0OSwiZXhwIjoxNjcxNTA1NTQ5fQ.L6V8dqqOF8YQWg8ubk0zCkLjVS5pRxtj-YVmxsXM1Qo"
+                }
+            ],
+            "params": [],
+            "tests": []
+        },
+        {
+            "_id": "8e871461-3b40-41b5-8028-1b00e72b311a",
+            "colId": "b6f960b6-a0a3-4ce2-b47a-8008d52b1b07",
+            "containerId": "",
+            "name": "getOrder",
+            "url": "http://localhost:2022/admin/order/getorder",
+            "method": "GET",
+            "sortNum": 80000,
+            "created": "2022-12-13T06:16:24.090Z",
+            "modified": "2022-12-13T06:16:24.090Z",
+            "headers": [
+                {
+                    "name": "token",
+                    "value": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJhZG1pbkVtYWlsIjoiYWthc2hAd2luLmNvbSIsImFkbWluSWQiOiI2Mzk3NTk5OGU5ZDgzYjA1NDdmZTg4YzMiLCJhZG1pbk5hbWUiOiJBa2FzaCBrdW1hciIsImlhdCI6MTY3MDkwMDc0OSwiZXhwIjoxNjcxNTA1NTQ5fQ.L6V8dqqOF8YQWg8ubk0zCkLjVS5pRxtj-YVmxsXM1Qo"
+                }
+            ],
+            "params": [],
+            "tests": []
+        },
+        {
+            "_id": "4d9f53df-44b3-42f4-aae0-3586f3c4f6d1",
+            "colId": "b6f960b6-a0a3-4ce2-b47a-8008d52b1b07",
+            "containerId": "",
+            "name": "deleteProduct",
+            "url": "http://localhost:2022/admin/products/deleteproduct/6397f288a3de4f488ede0c11",
+            "method": "DELETE",
+            "sortNum": 90000,
+            "created": "2022-12-13T06:16:31.308Z",
+            "modified": "2022-12-13T06:16:31.308Z",
+            "headers": [
+                {
+                    "name": "token",
+                    "value": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJhZG1pbkVtYWlsIjoiYWthc2hAd2luLmNvbSIsImFkbWluSWQiOiI2Mzk3NTk5OGU5ZDgzYjA1NDdmZTg4YzMiLCJhZG1pbk5hbWUiOiJBa2FzaCBrdW1hciIsImlhdCI6MTY3MDkwMDc0OSwiZXhwIjoxNjcxNTA1NTQ5fQ.L6V8dqqOF8YQWg8ubk0zCkLjVS5pRxtj-YVmxsXM1Qo"
+                }
+            ],
+            "params": [],
+            "tests": []
+        },
+        {
+            "_id": "4f9d359f-9b93-4b80-acbc-6682616e0a26",
+            "colId": "b6f960b6-a0a3-4ce2-b47a-8008d52b1b07",
+            "containerId": "",
+            "name": "getProducts",
+            "url": "http://localhost:2022/admin/products/getproduct",
+            "method": "GET",
+            "sortNum": 100000,
+            "created": "2022-12-13T06:16:38.251Z",
+            "modified": "2022-12-13T06:16:38.251Z",
+            "headers": [
+                {
+                    "name": "token",
+                    "value": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJhZG1pbkVtYWlsIjoiYWthc2hAd2luLmNvbSIsImFkbWluSWQiOiI2Mzk3NTk5OGU5ZDgzYjA1NDdmZTg4YzMiLCJhZG1pbk5hbWUiOiJBa2FzaCBrdW1hciIsImlhdCI6MTY3MDkwMDc0OSwiZXhwIjoxNjcxNTA1NTQ5fQ.L6V8dqqOF8YQWg8ubk0zCkLjVS5pRxtj-YVmxsXM1Qo"
+                }
+            ],
+            "params": [],
+            "tests": []
+        },
+        {
+            "_id": "4bb5187a-e16d-4acb-bc75-b3d53fb8a019",
+            "colId": "b6f960b6-a0a3-4ce2-b47a-8008d52b1b07",
+            "containerId": "",
+            "name": "addProducts",
+            "url": "http://localhost:2022/admin/products/addproduct",
+            "method": "POST",
+            "sortNum": 110000,
+            "created": "2022-12-13T06:16:49.673Z",
+            "modified": "2022-12-13T06:16:49.673Z",
+            "headers": [
+                {
+                    "name": "token",
+                    "value": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJhZG1pbkVtYWlsIjoiYWthc2hAd2luLmNvbSIsImFkbWluSWQiOiI2Mzk3NTk5OGU5ZDgzYjA1NDdmZTg4YzMiLCJhZG1pbk5hbWUiOiJBa2FzaCBrdW1hciIsImlhdCI6MTY3MDkwMDc0OSwiZXhwIjoxNjcxNTA1NTQ5fQ.L6V8dqqOF8YQWg8ubk0zCkLjVS5pRxtj-YVmxsXM1Qo"
+                }
+            ],
+            "params": [],
+            "body": {
+                "type": "json",
+                "raw": "{\n    \"productName\":\"Lenovo\",\n    \"categoryId\":\"6397eb215e0598fa521698fd\",\n    \"description\":\"TEsting\",\n    \"totalQuantity\":5,\n    \"price\":56\n}",
+                "form": []
+            },
+            "tests": []
+        },
+        {
+            "_id": "d97cf9d3-2c08-42b5-a2c5-30b88e1313b4",
+            "colId": "b6f960b6-a0a3-4ce2-b47a-8008d52b1b07",
+            "containerId": "",
+            "name": "EditProduct",
+            "url": "http://localhost:2022/admin/products/editproduct/6397f06011dca20733af9b9d",
+            "method": "PUT",
+            "sortNum": 120000,
+            "created": "2022-12-13T06:17:00.382Z",
+            "modified": "2022-12-13T06:17:00.382Z",
+            "headers": [
+                {
+                    "name": "token",
+                    "value": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJhZG1pbkVtYWlsIjoiYWthc2hAd2luLmNvbSIsImFkbWluSWQiOiI2Mzk3NTk5OGU5ZDgzYjA1NDdmZTg4YzMiLCJhZG1pbk5hbWUiOiJBa2FzaCBrdW1hciIsImlhdCI6MTY3MDkwMDc0OSwiZXhwIjoxNjcxNTA1NTQ5fQ.L6V8dqqOF8YQWg8ubk0zCkLjVS5pRxtj-YVmxsXM1Qo"
+                }
+            ],
+            "params": [],
+            "body": {
+                "type": "json",
+                "raw": "{\n    \"productName\":\"Assus Computer1\",\n    \"categoryId\":\"6397eb215e0598fa521698fd\",\n    \"description\":\"TEsting1\",\n    \"totalQuantity\":5,\n    \"price\":56\n}",
+                "form": []
+            },
+            "tests": []
+        },
+        {
+            "_id": "2dd15c3c-03d9-4eda-8b89-ce674c446612",
+            "colId": "b6f960b6-a0a3-4ce2-b47a-8008d52b1b07",
+            "containerId": "",
+            "name": "EditCategories",
+            "url": "http://localhost:2022/admin/categories/editcategory/6397ec37c943ae8ecc5de920",
+            "method": "PUT",
+            "sortNum": 130000,
+            "created": "2022-12-13T06:17:07.383Z",
+            "modified": "2022-12-13T06:17:07.383Z",
+            "headers": [
+                {
+                    "name": "token",
+                    "value": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJhZG1pbkVtYWlsIjoiYWthc2hAd2luLmNvbSIsImFkbWluSWQiOiI2Mzk3NTk5OGU5ZDgzYjA1NDdmZTg4YzMiLCJhZG1pbk5hbWUiOiJBa2FzaCBrdW1hciIsImlhdCI6MTY3MDkwMDc0OSwiZXhwIjoxNjcxNTA1NTQ5fQ.L6V8dqqOF8YQWg8ubk0zCkLjVS5pRxtj-YVmxsXM1Qo"
+                }
+            ],
+            "params": [],
+            "body": {
+                "type": "json",
+                "raw": "{\n   \"categoryName\":\"jug\",\n  \"categoryDesc\":\"For TEsting here\"\n}",
+                "form": []
+            },
+            "tests": []
+        },
+        {
+            "_id": "6950e3f0-9cc8-42f2-a0fd-20309363cc39",
+            "colId": "b6f960b6-a0a3-4ce2-b47a-8008d52b1b07",
+            "containerId": "",
+            "name": "deleteCatogries",
+            "url": "http://localhost:2022/admin/categories/deletecategory/6397eb215e0598fa521698fd",
+            "method": "DELETE",
+            "sortNum": 140000,
+            "created": "2022-12-13T06:17:14.581Z",
+            "modified": "2022-12-13T06:17:14.581Z",
+            "headers": [
+                {
+                    "name": "token",
+                    "value": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJhZG1pbkVtYWlsIjoiYWthc2hAd2luLmNvbSIsImFkbWluSWQiOiI2Mzk3NTk5OGU5ZDgzYjA1NDdmZTg4YzMiLCJhZG1pbk5hbWUiOiJBa2FzaCBrdW1hciIsImlhdCI6MTY3MDkwMDc0OSwiZXhwIjoxNjcxNTA1NTQ5fQ.L6V8dqqOF8YQWg8ubk0zCkLjVS5pRxtj-YVmxsXM1Qo"
+                }
+            ],
+            "params": [],
+            "body": {
+                "type": "json",
+                "raw": "{\n   \"categoryName\":\"jug\",\n  \"categoryDesc\":\"For TEsting here\"\n}",
+                "form": []
+            },
+            "tests": []
+        },
+        {
+            "_id": "0669ea62-dad6-4209-9fcc-02bce58e185a",
+            "colId": "b6f960b6-a0a3-4ce2-b47a-8008d52b1b07",
+            "containerId": "",
+            "name": "add categories",
+            "url": "http://localhost:2022/admin/categories/addcategory",
+            "method": "POST",
+            "sortNum": 150000,
+            "created": "2022-12-13T06:17:21.908Z",
+            "modified": "2022-12-13T06:17:21.908Z",
+            "headers": [
+                {
+                    "name": "token",
+                    "value": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJhZG1pbkVtYWlsIjoiYWthc2hAd2luLmNvbSIsImFkbWluSWQiOiI2Mzk3NTk5OGU5ZDgzYjA1NDdmZTg4YzMiLCJhZG1pbk5hbWUiOiJBa2FzaCBrdW1hciIsImlhdCI6MTY3MDkwMDc0OSwiZXhwIjoxNjcxNTA1NTQ5fQ.L6V8dqqOF8YQWg8ubk0zCkLjVS5pRxtj-YVmxsXM1Qo"
+                }
+            ],
+            "params": [],
+            "body": {
+                "type": "json",
+                "raw": "{\n  \"categoryName\":\"jug\",\n  \"categoryDesc\":\"For TEsting\",\n  \"groupName\":\"groceries\"\n}",
+                "form": []
+            },
+            "tests": []
+        },
+        {
+            "_id": "0eef1697-0fa0-4534-bbd3-a805bec852e7",
+            "colId": "b6f960b6-a0a3-4ce2-b47a-8008d52b1b07",
+            "containerId": "",
+            "name": "adminLogin",
+            "url": "http://localhost:2022/admin/dash/adminLogin",
+            "method": "POST",
+            "sortNum": 160000,
+            "created": "2022-12-13T06:17:28.747Z",
+            "modified": "2022-12-13T06:17:28.747Z",
+            "headers": [],
+            "params": [],
+            "body": {
+                "type": "json",
+                "raw": "{\n  \"adminEmail\":\"akash@win.com\", \n  \"adminPassword\":\"123456\"\n}",
+                "form": []
+            },
+            "tests": []
+        },
+        {
+            "_id": "3f9b10e5-9063-48f4-8c52-8d42344e541b",
+            "colId": "b6f960b6-a0a3-4ce2-b47a-8008d52b1b07",
+            "containerId": "",
+            "name": "getCatogries",
+            "url": "http://localhost:2022/admin/categories/getcategory",
+            "method": "GET",
+            "sortNum": 170000,
+            "created": "2022-12-13T06:17:38.239Z",
+            "modified": "2022-12-13T06:17:38.239Z",
+            "headers": [
+                {
+                    "name": "token",
+                    "value": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJhZG1pbkVtYWlsIjoiYWthc2hAd2luLmNvbSIsImFkbWluSWQiOiI2Mzk3NTk5OGU5ZDgzYjA1NDdmZTg4YzMiLCJhZG1pbk5hbWUiOiJBa2FzaCBrdW1hciIsImlhdCI6MTY3MDkwMDc0OSwiZXhwIjoxNjcxNTA1NTQ5fQ.L6V8dqqOF8YQWg8ubk0zCkLjVS5pRxtj-YVmxsXM1Qo"
+                }
+            ],
+            "params": [],
+            "body": {
+                "type": "json",
+                "raw": "{\n  \"adminEmail\":\"akash@win.com\", \n  \"adminPassword\":\"123456\"\n}",
+                "form": []
+            },
+            "tests": []
+        },
+        {
+            "_id": "414ce9d8-3bcb-4874-861a-3c12c69698a3",
+            "colId": "b6f960b6-a0a3-4ce2-b47a-8008d52b1b07",
+            "containerId": "",
+            "name": "adminLogout",
+            "url": "http://localhost:2022/admin/dash/adminLogOut",
+            "method": "PUT",
+            "sortNum": 180000,
+            "created": "2022-12-13T06:17:57.328Z",
+            "modified": "2022-12-13T06:17:57.328Z",
+            "headers": [
+                {
+                    "name": "Accept",
+                    "value": "*/*",
+                    "isDisabled": true
+                },
+                {
+                    "name": "User-Agent",
+                    "value": "Thunder Client (https://www.thunderclient.com)",
+                    "isDisabled": true
+                },
+                {
+                    "name": "Token",
+                    "value": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJhZG1pbkVtYWlsIjoiYWthc2hAd2luLmNvbSIsImFkbWluSWQiOiI2Mzk3NTk5OGU5ZDgzYjA1NDdmZTg4YzMiLCJhZG1pbk5hbWUiOiJBa2FzaCBrdW1hciIsImlhdCI6MTY3MDg5OTUwMiwiZXhwIjoxNjcxNTA0MzAyfQ.rNvcrRmgxBHll2Ljh_YoY-C1EQkHG6ssUqjFTSbH7-k"
+                }
+            ],
+            "params": [],
+            "tests": []
+        }
+    ]
+}
